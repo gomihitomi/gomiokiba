@@ -1,17 +1,15 @@
 :root {
-  --main-color: #212110;
-  --bg-color: #f8f8f8;
-  --bg-sub-color: #aaa;
-  --accent-color: #da0808;
-  --etc-color: #ff3265;
+  --main-color: #212529;
+  --bg-color: #f8f9fa;
+  --accent-color: #c9184a;
+  --etc-color: #ff4d6d;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #f1eff3;
-    --bg-color: #2c2c2e;
-    --bg-sub-color: #9d97a0;
-    --accent-color: #e83098;
-    --etc-color: #b311ff;
+    --main-color: #f8f9fa;
+    --bg-color: #212529;
+    --accent-color: #0582ca;
+    --etc-color: #07659b;
   }
 }
 html,
@@ -34,11 +32,11 @@ body {
     justify-content: space-around;
   }
   .qa-box:first-of-type {
-    border-top: 1px var(--bg-sub-color) solid;
-    border-bottom: 1px var(--bg-sub-color) solid;
+    border-top: 1px var(--main-color) solid;
+    border-bottom: 1px var(--main-color) solid;
   }
   .qa-box:last-of-type {
-    border-bottom: 1px var(--bg-sub-color) solid;
+    border-bottom: 1px var(--main-color) solid;
   }
 }
 @media screen and (min-width: 767px) {
@@ -48,8 +46,8 @@ body {
     justify-content: space-around;
   }
   .qa-box {
-    border-top: 1px var(--bg-sub-color) solid;
-    border-bottom: 1px var(--bg-sub-color) solid;
+    border-top: 1px var(--main-color) solid;
+    border-bottom: 1px var(--main-color) solid;
   }
 }
 .content {

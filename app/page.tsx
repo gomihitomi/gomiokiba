@@ -54,7 +54,7 @@ export default function Home() {
           </h2>
           <div className="profile-container f-box">
             <div className="profile-group">
-              <span className="tip bottom">よく誤字されてます。</span>
+              <span className="tip bottom">まぁまぁ誤字されています。</span>
               <div className="profile-box">
                 <div className="profile-label">名前</div>
                 <div className="profile-content">吾味人美</div>
@@ -68,16 +68,14 @@ export default function Home() {
               </div>
             </div>
             <div className="profile-group">
-              <span className="tip bottom">ハ●ーン様と一緒です。</span>
+              <span className="tip bottom">現在ダイエット中です。</span>
               <div className="profile-box">
                 <div className="profile-label">体重</div>
                 <div className="profile-content">48kg（欺瞞）</div>
               </div>
             </div>
             <div className="profile-group">
-              <span className="tip bottom">
-                ＋5年活動する毎に更新してます。
-              </span>
+              <span className="tip bottom">5年毎に更新されます。</span>
               <div className="profile-box">
                 <div className="profile-label">年齢</div>
                 <div className="profile-content">20代後半</div>
@@ -91,21 +89,23 @@ export default function Home() {
               </div>
             </div>
             <div className="profile-group">
-              <span className="tip bottom">お待ちしております。</span>
+              <span className="tip bottom">カメオ出演お待ちしております。</span>
               <div className="profile-box">
                 <div className="profile-label">将来の夢</div>
                 <div className="profile-content">漫画出演</div>
               </div>
             </div>
             <div className="profile-group">
-              <span className="tip bottom">常に移り変わるみたいな奴です。</span>
+              <span className="tip bottom">
+                常に移り変わるみたいな意味です。
+              </span>
               <div className="profile-box">
                 <div className="profile-label">座右の銘</div>
                 <div className="profile-content">星の流れ、月の位置</div>
               </div>
             </div>
             <div className="profile-group">
-              <span className="tip bottom">最近はあまり飲めません。</span>
+              <span className="tip bottom">これのおかげで生きています。</span>
               <div className="profile-box">
                 <div className="profile-label">好き</div>
                 <div className="profile-content">お酒（ウイスキー）</div>
@@ -166,7 +166,7 @@ export default function Home() {
                     新衣装企画
                   </a>
                 </b>
-                の否羽ゆきさんの衣装も使わせて頂いてます。
+                で否羽ゆきさんの物を採用させて頂きました。
               </span>
             </div>
           </div>
@@ -417,7 +417,7 @@ export default function Home() {
           <h2 id="qa">
             <span>Q&A</span>
           </h2>
-          <p className="heading">性的・暴力表現を含む絵を描きたい</p>
+          <p className="heading">性的・暴力表現を含む絵を描きたいです</p>
           <p className="text dropcap">
             好きに描いてください。R18絵の場合は
             <a
@@ -430,7 +430,7 @@ export default function Home() {
             を使ってください。R18絵を投稿して貰ってもRTはしないけど許してネ。
           </p>
           <p className="heading">
-            エゴサーチがエグすぎる・呟きたいけど別に反応はされたくない
+            エゴサーチがエグすぎる・呟きたいけど反応はされたくないです
           </p>
           <p className="text dropcap">
             ツイートに反応しないで欲しい旨が記述してあったり、gmhtmなどの検索避けがされていた場合は見つけても反応しませんので、お手数おかけしますがご利用ください。
@@ -444,7 +444,7 @@ export default function Home() {
             僕が作ってない創作物（ファンアートなど）に関してはこの限りではありません。
           </p>
           <p className="heading">
-            吾味人美(人妻)とか吾味人見とか吾味人巳ってなんですか？
+            吾味人美(人妻)とか吾味人見とか吾味人巳って何ですか？
           </p>
           <p className="text centering">
             <img
@@ -457,19 +457,33 @@ export default function Home() {
               loading="lazy"
             />
           </p>
-          <p className="heading">吾味人美（偽物）ってアカウント何ですか？</p>
+          <p className="heading">
+            上記以外でたまに出てくるキャラクター達は何ですか？
+          </p>
           <p className="text dropcap">
-            裏アカウントです。皆やってて羨ましかったので始めましたが、あんまり動いてないです。基本的に趣味の話する時に動かしてます。もっと動いてない
+            吾味人美と同じ世界線を生きるバーチャルインターネットラクガキマン達ですが、基本的に知らない人です。
+            <a
+              href="https://gomihitomi.github.io/vwiki/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              バーチャルインターネットラクガキマンwiki
+            </a>
+            にちょっとだけ情報が載ってるかも知れません。
+          </p>
+          <p className="heading">吾味人美（偽物）ってアカウントは何ですか？</p>
+          <p className="text dropcap">
+            裏アカウントです。基本的に趣味の話とかをする時に動かしてます。もっと動かしてない
             <a
               href="https://bsky.app/profile/gomihitomi.bsky.social"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Blueskyのアカウント
+              Blueskyアカウント
             </a>
             もあります。
           </p>
-          <p className="heading">何かラジオやってませんでした？</p>
+          <p className="heading">昔、ラジオやってませんでした？</p>
           <p className="text dropcap">
             吾味人美の酔いどれラジオというお酒を飲んで一人で喋るだけのラジオをまぁまぁやってました。詳細は
             <a
@@ -489,8 +503,22 @@ export default function Home() {
           </h2>
           <div className="f-box">
             <div className="link-box">
-              <b>作ったもの</b>
+              <b>作ったゲームとか</b>
               <div className="link-group">
+                <a
+                  href="https://gomihitomi.github.io/inu-runner/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  INU-RUNNER
+                </a>
+                <a
+                  href="https://gomihitomi.github.io/unchi-card-generator/link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  自作カードゲーム（UnrealCharacterIdentity）
+                </a>
                 <a
                   href="https://gomihitosi.github.io/nanchattehakusura/"
                   target="_blank"
@@ -506,13 +534,6 @@ export default function Home() {
                   吾味人美クイズ
                 </a>
                 <a
-                  href="https://gomihitosi.github.io/jimakukun/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  字幕クン
-                </a>
-                <a
                   href="https://gomihitosi.github.io/factory/"
                   target="_blank"
                   rel="noreferrer noopener"
@@ -525,6 +546,32 @@ export default function Home() {
                   rel="noreferrer noopener"
                 >
                   おるやんけタイピング
+                </a>
+              </div>
+            </div>
+            <div className="link-box">
+              <b>作ったソフトとか</b>
+              <div className="link-group">
+                <a
+                  href="https://github.com/gomihitosi/va-split/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  VA-Split
+                </a>
+                <a
+                  href="https://gomihitosi.github.io/dis/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  webカメラを減色する奴
+                </a>
+                <a
+                  href="https://gomihitosi.github.io/jimakukun/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  字幕クン
                 </a>
                 <a
                   href="https://gomihitosi.github.io/dojou/"
@@ -540,29 +587,10 @@ export default function Home() {
                 >
                   カップリングジェネレータ
                 </a>
-                <a
-                  href="https://gomihitosi.github.io/dis/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  webカメラを減色する奴
-                </a>
-                <a
-                  href="https://github.com/gomihitosi/va-split/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  VA-Split
-                </a>
-                <a
-                  href="https://gomihitomi.github.io/unchi-card-generator/link"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  自作カードゲーム（UnrealCharacterIdentity）
-                </a>
               </div>
             </div>
+          </div>
+          <div className="f-box">
             <div className="link-box">
               <b>吾味人志</b>
               <div className="link-group">
@@ -612,6 +640,13 @@ export default function Home() {
                   rel="noreferrer noopener"
                 >
                   YouTube
+                </a>
+                <a
+                  href="https://www.twitch.tv/gomihitomi"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Twitch
                 </a>
                 <a
                   href="https://pixiv.me/gomihitomi"
@@ -668,13 +703,6 @@ export default function Home() {
                   rel="noreferrer noopener"
                 >
                   #痩せろ吾味人美
-                </a>
-                <a
-                  href="https://gomihitomi.github.io/inu-runner/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  INU-RUNNER
                 </a>
               </div>
             </div>

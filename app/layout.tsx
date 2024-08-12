@@ -3,7 +3,10 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import Head from "next/head";
 
-const notoSansJp = Noto_Sans_JP({ subsets: ["latin"] });
+const googleFont = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 // TODO: 外部ファイル化
 const title = "ごみおきば";
@@ -41,7 +44,7 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body className={notoSansJp.className}>{children}</body>
+      <body className={googleFont.className}>{children}</body>
     </html>
   );
 }
