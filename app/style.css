@@ -1,15 +1,15 @@
 :root {
   --main-color: #212529;
   --bg-color: #f8f9fa;
-  --accent-color: #c9184a;
+  --accent-color: #cb043c;
   --etc-color: #ff4d6d;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --main-color: #f8f9fa;
-    --bg-color: #212529;
-    --accent-color: #0582ca;
-    --etc-color: #07659b;
+    --bg-color: #272a2c;
+    --accent-color: #ff1d46;
+    --etc-color: #cb043c;
   }
 }
 html,
@@ -87,10 +87,12 @@ body {
 .menu a {
   margin: 0 0.2em;
   padding: 0 1em;
+  font-weight: bold;
   color: var(--bg-color);
 }
 a {
   text-decoration: none;
+  font-weight: bold;
   color: var(--accent-color);
 }
 a:hover {
