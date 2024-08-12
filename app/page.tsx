@@ -42,8 +42,8 @@ export default function Home() {
             width="100%"
             height="400"
             frameBorder={0}
-            src="https://www.youtube.com/embed/XYEUOaZPpGY?autoplay=1&playsinline=1"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://www.youtube.com/embed/XYEUOaZPpGY?playsinline=1"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </div>
