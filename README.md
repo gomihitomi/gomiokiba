@@ -3,7 +3,6 @@
 - Typescript
 - Next.js (App router)
 - Tailwind CSS
-- shadcn/ui
 - ESLint
 - Prettier
 - Husky
