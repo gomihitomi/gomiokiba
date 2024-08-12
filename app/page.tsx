@@ -485,7 +485,7 @@ export default function Home() {
           </p>
           <p className="heading">昔、ラジオやってませんでした？</p>
           <p className="text dropcap">
-            吾味人美の酔いどれラジオというお酒を飲んで一人で喋るだけのラジオをまぁまぁやってました。詳細は
+            吾味人美の酔いどれラジオというお酒を飲んで一人で喋るだけのラジオをやってました。詳細は
             <a
               href="https://github.com/gomihitomi/yoidore"
               target="_blank"
@@ -635,11 +635,32 @@ export default function Home() {
                   Twitter
                 </a>
                 <a
-                  href="https://www.youtube.com/channel/UCfUZgrRyahAR6lU3OTyeICA"
+                  href="https://x.com/gomihitomi_fake"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Twitter(サブ)
+                </a>
+                <a
+                  href="https://x.com/gomihitomi_fake"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  BlueSky(サブのサブ)
+                </a>
+                <a
+                  href="https://www.youtube.com/@gomihitomi"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   YouTube
+                </a>
+                <a
+                  href="https://www.youtube.com/@gomihitomi_fake"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  YouTube(サブ)
                 </a>
                 <a
                   href="https://www.twitch.tv/gomihitomi"
