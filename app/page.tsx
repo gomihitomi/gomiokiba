@@ -417,7 +417,13 @@ export default function Home() {
           <h2 id="qa">
             <span>Q&A</span>
           </h2>
-          <p className="heading">性的・暴力表現を含む絵を描きたいです</p>
+          <p className="heading">誕生日とかデビュー日は無いんですか？</p>
+          <p className="text dropcap">
+            僕が誕生日やデビュー日の度にイベントを用意するのが無理すぎたので消失しました。誕生日は5/3で、デビュー日は2018/10/18です。皆さんがこの日に併せて何かをして頂く分には自由にして頂いて大丈夫です。
+          </p>
+          <p className="heading">
+            性的・暴力表現を含む絵を描いてもいいですか？
+          </p>
           <p className="text dropcap">
             好きに描いてください。R18絵の場合は
             <a
@@ -485,9 +491,9 @@ export default function Home() {
           </p>
           <p className="heading">昔、ラジオやってませんでした？</p>
           <p className="text dropcap">
-            吾味人美の酔いどれラジオというお酒を飲んで一人で喋るだけのラジオをやってました。詳細は
+            吾味人美の酔いどれラジオという基本的にお酒を飲んで一人で喋るだけのラジオをやってました。詳細は
             <a
-              href="https://github.com/gomihitomi/yoidore"
+              href="https://gomihitomi.github.io/yoidore/"
               target="_blank"
               rel="noreferrer noopener"
             >
