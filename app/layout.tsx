@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url,
     siteName: title,
     images: [ogImageUrl],
-    locale: "en_US",
+    locale: "ja_JP",
     type: "website",
   },
   twitter: {

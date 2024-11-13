@@ -1,3 +1,5 @@
+import Profiles from "@/components/Profiles";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
   return (
@@ -52,73 +54,7 @@ export default function Home() {
           <h2 id="profile">
             <span>PROFILE</span>
           </h2>
-          <div className="profile-container f-box">
-            <div className="profile-group">
-              <span className="tip bottom">まぁまぁ誤字されています。</span>
-              <div className="profile-box">
-                <div className="profile-label">名前</div>
-                <div className="profile-content">吾味人美</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">おめ●スさんと一緒です。</span>
-              <div className="profile-box">
-                <div className="profile-label">身長</div>
-                <div className="profile-content">153cm</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">現在ダイエット中です。</span>
-              <div className="profile-box">
-                <div className="profile-label">体重</div>
-                <div className="profile-content">48kg（欺瞞）</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">5年毎に更新されます。</span>
-              <div className="profile-box">
-                <div className="profile-label">年齢</div>
-                <div className="profile-content">20代後半</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">他人のエクセルを壊す仕事です。</span>
-              <div className="profile-box">
-                <div className="profile-label">職業</div>
-                <div className="profile-content">デスクワーク</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">カメオ出演お待ちしております。</span>
-              <div className="profile-box">
-                <div className="profile-label">将来の夢</div>
-                <div className="profile-content">漫画出演</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">
-                常に移り変わるみたいな意味です。
-              </span>
-              <div className="profile-box">
-                <div className="profile-label">座右の銘</div>
-                <div className="profile-content">星の流れ、月の位置</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">これのおかげで生きています。</span>
-              <div className="profile-box">
-                <div className="profile-label">好き</div>
-                <div className="profile-content">お酒（ウイスキー）</div>
-              </div>
-            </div>
-            <div className="profile-group">
-              <span className="tip bottom">敵です。</span>
-              <div className="profile-box">
-                <div className="profile-label">嫌い</div>
-                <div className="profile-content">ホラー・運動</div>
-              </div>
-            </div>
-          </div>
+          <Profiles />
         </div>
 
         <div className="content">
@@ -502,6 +438,14 @@ export default function Home() {
             を見てください。
           </p>
         </div>
+
+        <pre>
+          #吾味人美 #バーチャルインターネットラクガキマン
+          #バーチャルインターネットラクガキマン外伝 #人美ちゃん日記
+          #マシュマロ食べろ吾味人美 #今日の吾味人美 #朝刊吾味人美
+          #吾味人美専用スレにありがちなこと #飲め吾味人美 #吾味人美夢日記
+          #吾味メモ #急に歌うな吾味人美 #急に踊るな吾味人美
+        </pre>
 
         <div className="content">
           <h2 id="link">
