@@ -1,3 +1,4 @@
+import HashTags from "@/components/HashTags";
 import Profiles from "@/components/Profiles";
 
 /* eslint-disable @next/next/no-img-element */
@@ -437,15 +438,12 @@ export default function Home() {
             </a>
             を見てください。
           </p>
+          <p className="heading">ハッシュタグいっぱいあるの何？</p>
+          <p className="text dropcap">
+            気が向いたら増やしてるだけでなので、無限に増え続けます。
+          </p>
+          <HashTags />
         </div>
-
-        <pre>
-          #吾味人美 #バーチャルインターネットラクガキマン
-          #バーチャルインターネットラクガキマン外伝 #人美ちゃん日記
-          #マシュマロ食べろ吾味人美 #今日の吾味人美 #朝刊吾味人美
-          #吾味人美専用スレにありがちなこと #飲め吾味人美 #吾味人美夢日記
-          #吾味メモ #急に歌うな吾味人美 #急に踊るな吾味人美
-        </pre>
 
         <div className="content">
           <h2 id="link">
