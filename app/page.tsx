@@ -590,7 +590,7 @@ export default function Home() {
                   Twitter(サブ)
                 </a>
                 <a
-                  href="https://x.com/gomihitomi_fake"
+                  href="https://bsky.app/profile/gomihitomi.bsky.social"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
